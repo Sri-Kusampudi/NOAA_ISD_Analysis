@@ -14,7 +14,7 @@ The data filenames correspond with the station numbers listed in the isd-history
 
 ### Solution Design
 
-#### Modularized the solution as below :
+#### Its a modularized solution as below :
 ##### 1. A Python Program : 
  The program downloads the files from the site :  https://www1.ncdc.noaa.gov/pub/data/noaa/isd-lite/  and stores into local file system. Each of them is a gzip file, representing a stations data in a particular year. 
  The program downloads files for a specific range of years mentioned in the code. For simplicity sake, it is set to choose 5 years worth of data from 2013 - 2018. All the files are downloaded to one folder in local file system.
