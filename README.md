@@ -30,3 +30,14 @@ https://www1.ncdc.noaa.gov/pub/data/noaa/isd-lite/isd-lite-format.txt
 The program uses Pandas/Matplotlib/Seaborn for insights into data stored as parquet files.
 It uses PySpark to read data from the parquet file and create DataFrames for analysis. Creates a SparkSession, SQLContext for reading Parquet file and extracts as a DataFrame for usage.
 The DataFrame extracted is converted to Pandas DataFrame for plotting charts/graphs. Further prepping of DataFrame is done for usage with various data insights.
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+##### References -
+
+https://www.ncdc.noaa.gov/isd
+
+https://journals.ametsoc.org/doi/pdf/10.1175/BAMS-D-11-00173.1
