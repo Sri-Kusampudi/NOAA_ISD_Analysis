@@ -28,7 +28,7 @@ https://www1.ncdc.noaa.gov/pub/data/noaa/isd-lite/isd-lite-format.txt
 - Partitions the data per year and saves it as a parquet file into the local system folder.
 ##### 3. Jupyter Notebook - Python Spark program :
 The program uses Pandas/Matplotlib/Seaborn for insights into data stored as parquet files.
-It uses PySpark to read data from the parquet file and create DataFrames for analysis. Creates a SparkSession, SQLContext for reading Parquet file and extracts as a DataFrame for usage.
+It reads data from the parquet file and creates DataFrames for analysis. Creates a SparkSession, SQLContext for reading Parquet file and extracts as a DataFrame for usage.
 The DataFrame extracted is converted to Pandas DataFrame for plotting charts/graphs. Further prepping of DataFrame is done for usage with various data insights.
 
 
